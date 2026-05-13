@@ -46,11 +46,12 @@ SELECT <spalten> FROM studiengang WHERE <bedingungen>;
 CREATE TABLE "studiengang" (
     "id" INTEGER,
     "studiengangsname" TEXT NOT NULL,
+    "fachbereich" TEXT NOT NULL CHECK("fachbereich" IN ('INW', 'SMK', 'WIW')
     "abschlussniveau" TEXT NOT NULL CHECK("abschlussniveau" IN ('Bachelor', 'Master', 'Kompass')),
     "abschlussname" TEXT NOT NULL,
     "studienform" TEXT NOT NULL CHECK("studienform" IN ('Vollzeit', 'Teilzeit')),
     "studiendauer" INTEGER,
-    "studienbeginn" TEXT NOT NULL CHECK("studienbeginn" IN ('Wintersemester', 'Sommersemester')),
+    "studienbeginn" TEXT NOT NULL CHECK("studienbeginn" IN ('Wintersemester', 'Sommersemester', 'Winter-/ Sommersemester')),
     "zulassung" TEXT NOT NULL CHECK("zulassung" IN ('frei', 'zulassungsbeschränkt')),
     "sprache" TEXT NOT NULL CHECK("sprache" IN ('Deutsch', 'Englisch')),
     "datei" TEXT NOT NULL,
