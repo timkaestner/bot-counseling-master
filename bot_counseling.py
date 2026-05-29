@@ -120,7 +120,7 @@ if "app_graph" not in st.session_state:
     st.session_state.app_graph = app_graph
 
 
-st.title("Lern-Bot")
+st.title("Chatbot zur Studiengangswahl an der HS Merseburg")
 # Zeige, die Chat-Historie an, falls es eine gibt.
 for role, content in st.session_state.messages:
     r = role if role in ("user", "assistant") else "assistant"
