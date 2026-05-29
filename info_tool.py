@@ -25,7 +25,36 @@ class InfoTool(BaseTool):
         super().__init__()
         courses = {
             "AI Engineering": "ai-engineering.md",
-            "Angewandte Chemie": "angewandte-chemie.md"
+            "Angewandte Chemie": "angewandte-chemie.md",
+            "Angewandte Medien und Kulturwissenschaft": "angewandte-medien-und-kulturwissenschaft.md",
+            "Angewandte Informatik": "angewandte-informatik.md",
+            "Angewandte Sexualwissenschaft": "angewandte-sexualwissenschaft.md",
+            "Automatisierungstechnik und Informatik": "automatisierungstechnik-und-informatik.md",
+            "BWL": "bwl.md",
+            "BWL (Berufsbegleitend)": "bwl-(berufsbegleitend).md",
+            "Chemie- und Umwelttechnik": "chemie-und-umwelttechnik.md",
+            "Controlling und Management": "controlling-und-management.md",
+            "Elektrotechnik und Automatisierungstechnik": "elektrotechnik-und-automatisierungstechnik.md",
+            "Engineering und Management": "engineering-und-management.md",
+            "Green Engineering": "green-engineering.md",
+            "Informationsdesign und Medien": "informationsdesign-und-mediendesign.md",
+            "Ingenieurpädagogik": "ingenieuerpädagogik.md",
+            "KMP":"kmp.md",
+            "KOMPASS": "kompass.md",
+            "Maschinenbau Bachelor": "maschinenbau-b.md",
+            "Maschinenbau Master": "maschinenbau-m.md",
+            "Nachhaltige Verfahrenstechnik und Chemie": "nachhaltige-verfahrenstechnik-und-chemie.md",
+            "Polymer Material Science": "polymer-material-science.md",
+            "Projektmanagement": "projektmanagement.md",
+            "Sexologie": "sexologie.md",
+            "Soziale Arbeit": "soziale-arbeit.md",
+            "Systemische Soziale Arbeit": "systemische-soziale-arbeit.md",
+            "Technisches Informationsdesign": "technisches-informationsdesign.md",
+            "Wirtschaftsinformatik Bachelor": "wirtschaftsinformatik-b.md",
+            "Wirtschaftsinformatik Master": "wirtschaftsinformatik-m.md",
+            "Wirtschaftsingnieurwesen Dual": "wirtschaftsingnieurwesen_dual.md",
+            "Wirtschaftsingenieurwesen": "wirtschaftsingenieurwesen.md"
+
         }
         self.courses = courses
 
